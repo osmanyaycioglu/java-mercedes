@@ -1,10 +1,13 @@
 package org.training.mercedes.lab2;
 
+import org.training.mercedes.enums.EGender;
+
 import java.util.Objects;
 
 public class Customer {
     private String firstName;
     private String lastName;
+    private EGender gender;
 
     public Customer() {
     }
@@ -29,6 +32,14 @@ public class Customer {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public EGender getGender() {
+        return gender;
+    }
+
+    public void setGender(EGender gender) {
+        this.gender = gender;
     }
 
     @Override
