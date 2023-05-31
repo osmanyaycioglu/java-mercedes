@@ -19,6 +19,17 @@ public class CustomerIm2 {
         this.height = height;
     }
 
+    @Override
+    public String toString() {
+        return "CustomerIm2{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                ", weight=" + weight +
+                ", height=" + height +
+                '}';
+    }
+
     public String getName() {
         return name;
     }
